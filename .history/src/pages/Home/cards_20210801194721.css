@@ -1,0 +1,19 @@
+body {
+    background: #ddd;
+}
+
+.area {
+    padding: 80px 0;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img2 {
+    position: relative;
+    display: block;
+    margi
+}

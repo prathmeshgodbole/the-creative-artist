@@ -1,0 +1,14 @@
+.imgcarousle {
+    height: 600px;
+    background: black;
+    border: 10px solid black;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+img {
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.creativeartist {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    /* color: #1abc9c; */
+}
+
+.section-head {
+    margin-bottom: 60px;
+}
+
+.section-head h4 {
+    position: relative;
+    padding: 0;
+    /* color: #1abc9c; */
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section-head h4::before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #1abc9c;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-head h4 .creativeartist {}

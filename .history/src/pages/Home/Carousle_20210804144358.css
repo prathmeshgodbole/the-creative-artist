@@ -1,0 +1,15 @@
+.imgcarousle {
+    max-height: 600px;
+    background: black;
+    border: 10px solid black;
+    z-index: 1;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+display: block;
+
+}

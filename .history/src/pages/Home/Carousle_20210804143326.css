@@ -1,0 +1,17 @@
+.imgcarousle {
+    /* position: relative; */
+    align-items: center;
+    min-height: 600px;
+    max-height: 600px;
+    background: black;
+    /* border: 10px solid black; */
+}
+
+img {
+    align-items: center;
+    align-content: center;
+}
+
+.home-caraousle {
+    background: black;
+}

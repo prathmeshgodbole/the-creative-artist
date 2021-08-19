@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Robot', sans-serif;
+}
+
+.gift-container {
+    background: #161616;
+    margin-bottom: 50px;
+}
+
+.gifts-main {
+    min-height: 120px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.gifts {
+    padding: 30px;
+    padding-left: 45px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.span {
+    margin-top: 50px;
+}
+
+.gifts-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -145px auto 0;
+    background: #fff;
+    border: 15px solid #161616;
+}
+
+.gifts-icon {
+    width: 50px;
+    font-size: 35px;
+    margin-top: 17px;
+}
+
+.gifts h4 {
+    height: 25px;
+    width: 80%;
+    background: #fff;
+    margin: auto;
+}
+
+.gifts h4::after {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: linear-gradient(to right, #fff, #1abc9c);
+    position: absolute;
+    right: -5px;
+    top: -25px;
+    z-index: -1;
+}
+
+.gifts h4::before {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: linear-gradient(to right, #1abc9c, #fff);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
